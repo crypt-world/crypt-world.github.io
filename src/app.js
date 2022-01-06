@@ -1,4 +1,3 @@
-import { createComment, getCommentsByCurrencyId } from "./api/data.js";
 import { page } from "./lib.js";
 import { contextDecorator,  updateUserNav } from "./middlewares/render.js";
 import { catalogPage } from "./views/catalog.js";
