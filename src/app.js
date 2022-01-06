@@ -22,5 +22,3 @@ page("/register", registerPage);
 updateUserNav();
 page.start();
 
-window.getComments = getCommentsByCurrencyId;
-window.postComment = createComment;
