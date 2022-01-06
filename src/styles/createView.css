@@ -1,0 +1,58 @@
+.create-fieldset-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .create-fieldset {
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px 0px lightgrey;
+  }
+  
+  .create-fieldset legend {
+    font-size: 30px;
+  }
+  
+  .create-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .create-form-error-message-span{
+    align-self: baseline;
+    margin: 10px auto;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .create-form-label {
+    padding: 12px 30px;
+    font-size: 20px;
+  }
+  
+  .create-form-label-input {
+    height: 30px;
+    width: 360px;
+    font-size: 20px;
+  }
+  
+  #create-form-textarea {
+    margin: 0px;
+    height: 80px;
+    width: 360px;
+  }
+  
+  .create-form-label-paragraph {
+    position: relative;
+    top: 41px;
+    right: 133px;
+  }
+
+  .error {
+    border-color: red;
+    background-color: rgb(243, 175, 168);
+  }

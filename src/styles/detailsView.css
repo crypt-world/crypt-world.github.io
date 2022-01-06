@@ -1,0 +1,154 @@
+.details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .crypto-currency-details-card {
+    border-radius: 6px;
+    margin: 50px auto;
+    min-width: 350px;
+    max-width: 500px;
+    box-shadow: 1px 1px 15px 2px lightgrey;
+    background: lightskyblue;
+  }
+  
+  .crypto-currency-details-img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 6px;
+  }
+  
+  .crypto-currency-name {
+    text-align: center;
+    font-size: 50px;
+    margin: 15px auto;
+  }
+  
+  .crypto-currency-description-article-paragraph {
+    line-height: 22px;
+    font-size: 20px;
+    padding: 0px 57px;
+    text-align: justify;
+  }
+  
+  .author-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card-author-edit-link {
+    border: 2px solid black;
+    border-radius: 23px;
+    border-color: yellow;
+    padding: 6px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    width: 69px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+  }
+  
+  .card-author-delete-btn {
+    border: 2px solid black;
+    border-radius: 23px;
+    border-color: red;
+    padding: 6px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    margin: 0px 0px 20px 0px;
+  }
+  
+  #comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .add-comment-section{
+    background-color: tomato;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 500px;
+  }
+
+  .add-comment-section:hover {
+    cursor: pointer;
+    background-color: brown;
+  }
+
+  .add-comment-section-heading {
+    text-align: center;
+  }
+
+  .add-comment-section-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .add-comment-section-form-submit-btn {
+    margin: 20px auto;
+    background-color: yellow;
+    border-radius: 5px;
+    border: none;
+    height: 33px;
+    width: 130px;
+  }
+
+  .add-comment-section-form-submit-btn:hover {
+    cursor: pointer;
+    background-color: chartreuse;
+  }
+  
+  .add-comment-section-textarea{
+    width: 420px;
+  }
+
+  .comments-heading {
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 100px;
+    box-shadow: 1px 1px 5px 0px white;
+  }
+
+  .comments-list-item {
+    list-style: none;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 0px white;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 500px;
+    position: relative;
+    right: 17px;
+  }
+
+  .comment-list-item-paragraph-date {
+    margin: 0px;
+    border-bottom: 1px solid black;
+    padding: 4px 12px;
+    text-align: end;
+  }
+
+  .submit-btn {
+    align-self: center;
+    margin: 20px;
+    border-radius: 17px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: greenyellow;
+  }
+
+  .submit-btn:hover {
+    cursor: pointer;
+    background: green;
+  }

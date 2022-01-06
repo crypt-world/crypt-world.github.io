@@ -1,0 +1,27 @@
+html {
+    box-sizing: content-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  legend {
+    font-family: "Pushster", cursive;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background: rgb(6,3,45);
+  background: linear-gradient(90deg, rgba(6,3,45,1) 1%, rgba(47,47,185,1) 50%, rgba(7,164,196,1) 100%);
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }

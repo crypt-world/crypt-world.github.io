@@ -1,0 +1,20 @@
+.start-page-container {
+    background-image: url("/logo-icon/Background-img/1440x810_cmsv2_237887fc-28e2-54b1-baee-3cd919ae7ec8-5531148.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .start-page-main-quote,
+  .start-page-secondary-quote {
+    color: white;
+    font-size: 50px;
+    margin-top: 4px;
+  }
+  
+  .start-page-main-quote {
+    margin-top: 0px;
+    padding-top: 100px;
+  }
+  

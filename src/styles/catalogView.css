@@ -1,0 +1,116 @@
+.catalog-wrapper {
+    padding: 30px 80px;
+  }
+  
+  .searchbar-and-pagination {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .searchbar-form {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .searchbar-label-paragraph {
+    font-size: 27px;
+    margin: 0px 0px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  
+  .searchbar-form-search-input {
+    height: 20px;
+    width: 300px;
+    position: relative;
+    left: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+  
+  .searchbar-form-submit-btn {
+    position: relative;
+    left: 30px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 7px;
+  }
+  
+  .searchbar-form-submit-btn:hover {
+    background-color: tomato;
+    cursor: pointer;
+  }
+  
+  .first-pagination {
+    width: fit-content;
+    margin: 0 auto 25px auto;
+  }
+  
+  .page-link {
+    padding: 0px 5px;
+    color: white;
+  }
+  
+  .page-link:hover {
+    color: tomato;
+  }
+  
+  .page-btn {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  
+  .page-btn:hover {
+    background-color: tomato;
+    cursor: pointer;
+  }
+  
+  .second-pagination {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .currency-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 761px;
+    margin: 0px auto;
+  }
+  
+  .currency-card-wrapper {
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 2px 1px 7px 0px lightgrey;
+    width: 250px;
+    height: 219px;
+    transition: width 1s, height 1s ease-in-out;
+    background-color: #26b8b4;
+    margin-bottom: 25px;
+  }
+  
+  .currency-card-wrapper:hover {
+    width: 270px;
+    height: 250px;
+  }
+  
+  .currency-card-wrapper a {
+    text-decoration: none;
+  }
+  
+  .catalog-currency-card-img {
+    width: 100%;
+    height: 166px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  
+  .currency-card-name {
+    font-family: "Vujahday Script", cursive;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    margin: 0px;
+  }

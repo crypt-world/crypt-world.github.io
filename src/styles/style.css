@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url("/src/styles/body.css");
+@import url("/src/styles/header.css");
+@import url("/src/styles/mainSection.css");
+@import url("/src/styles/register.css");
+@import url("/src/styles/login.css");
+@import url("/src/styles/createView.css");
+@import url("/src/styles/editView.css");
+@import url("/src/styles/catalogView.css");
+@import url("/src/styles/detailsView.css");
+@import url("/src/styles/errors.css");

@@ -1,0 +1,46 @@
+
+  
+  .navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    background-color: #e6e6e6;
+    height: 80px;
+    border-bottom: 3px solid black;
+  }
+
+  .logo-img {
+    height: 80px;
+    width: 100px;
+  }
+  
+  header .nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header .nav-list-item {
+    list-style: none;
+    margin-right: 25px;
+  }
+  
+  header .nav-list-item-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  
+  header .nav-list-item-link:hover {
+    color: tomato;
+    text-decoration: underline;
+  }
+
+  .nav-list-item-link-user-greeter {
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    color: tomato;
+  }
+
