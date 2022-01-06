@@ -1,6 +1,6 @@
 import { createComment, getCommentsByCurrencyId } from "./api/data.js";
 import { page } from "./lib.js";
-import { contextDecorator,  updateUserNav } from "./middlewares/contextdecorator.js";
+import { contextDecorator,  updateUserNav } from "./middlewares/render.js";
 import { catalogPage } from "./views/catalog.js";
 import { createPage } from "./views/create.js";
 import { detailsPage } from "./views/details.js.js";
