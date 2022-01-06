@@ -3,7 +3,7 @@ import { getUserData } from "../api/util.js";
 import { html, until } from "../lib.js";
 
 
-const detailsPageTemplate = (currencyPromise, isOwner, onDelete, commentSection) => html` 
+const detailsPageTemplate = (currencyPromise, currency, isOwner, onDelete, commentSection) => html` 
 <div class="details-wrapper">
   <section class="crypto-currency-details-card">
     ${until(currencyPromise, html`<p>Loading &hellip;</p>`)}
@@ -60,9 +60,10 @@ const commentCardTemplate = (comment) => html`
 
 export async function detailsPage(ctx) {
   const userData = getUserData();
+  const data =  await getCurrencyById(ctx.params.id);
   const isOwner = userData && userData.id == data.owner.objectId;
   const { results } = await getCommentsByCurrencyId(ctx.params.id)
-  ctx.render(detailsPageTemplate(loadCurrency(ctx.params.id), isOwner, onDelete, addCommentTemplate(userData ,onComment, showAddComment, loadComment(results), ctx.params.id)));
+  ctx.render(detailsPageTemplate(loadCurrency(ctx.params.id), data, isOwner, onDelete, addCommentTemplate(userData ,onComment, showAddComment, loadComment(results), ctx.params.id)));
 
   async function onDelete(){
     const confirmation = confirm(`Are you sure you want to delete ${data.name} currency?`)
