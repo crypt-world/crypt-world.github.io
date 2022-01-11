@@ -150,6 +150,11 @@
       border-radius: 4px;
       margin-right: 5px;
     }
+
+    .currency-card-wrapper:hover {
+      width: 250px;
+      height: 219px;
+    }
   }
 
 
@@ -168,6 +173,11 @@
       height: 196px;
       background-color: #26b8b4;
       margin-bottom: 25px;
+    }
+
+    .currency-card-wrapper:hover {
+      width: 185px;
+      height: 196px;
     }
 
     .catalog-currency-card-img {
