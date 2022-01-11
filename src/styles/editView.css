@@ -61,7 +61,7 @@
     }
 
     .edit-form-label {
-      padding: 12px;
+      padding: 12px 4px;
       font-size: 16px;
     }
 
@@ -92,6 +92,11 @@
       width: 393px;
     }
 
+    .edit-form-label {
+      padding: 12px 4px;
+      font-size: 16px;
+    }
+
     .edit-form {
       display: flex;
       flex-direction: column;
@@ -102,7 +107,7 @@
     .edit-form-label-input {
       height: 30px;
       width: 200px;
-      font-size: 15px;
+      font-size: 14px;
     }
 
     #edit-form-textarea {
@@ -128,7 +133,7 @@
     }
 
     .edit-form-label {
-      padding: 12px;
+      padding: 12px 4px;
       font-size: 12px;
     }
 

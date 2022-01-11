@@ -37,7 +37,24 @@
     }
   }
 
+  @media (max-width: 550px) {
+    .start-page-main-quote {
+      margin: 0px auto;
+      padding-top: 70px;
+    }
+
+    .start-page-main-quote, .start-page-secondary-quote {
+      color: white;
+      font-size: 23px;
+    }
+  }
+
   @media (max-width: 440px) {
+    .start-page-main-quote {
+      margin: 0px auto;
+      padding-top: 70px;
+  }
+
     .start-page-main-quote, .start-page-secondary-quote {
       color: white;
       font-size: 19px;

@@ -78,7 +78,7 @@
     }
 
     .create-form-label {
-      padding: 12px;
+      padding: 12px 4px;
       font-size: 16px;
     }
 
@@ -112,6 +112,11 @@
       border-radius: 8px;
       box-shadow: 2px 2px 7px 0px lightgrey;
       width: 393px;
+    }
+
+    .create-form-label {
+      padding: 12px 4px;
+      font-size: 14px;
     }
 
     .create-form {
@@ -160,7 +165,7 @@
     }
 
     .create-form-label {
-      padding: 12px;
+      padding: 12px 4px;
       font-size: 12px;
     }
 
