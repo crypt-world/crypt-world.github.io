@@ -56,3 +56,129 @@
     border-color: red;
     background-color: rgb(243, 175, 168);
   }
+
+  @media (max-width: 700px) {
+    .create-fieldset-wrapper {
+      max-width: 555px;
+      margin: 50px auto;
+    }
+
+    .create-fieldset {
+      background-color: #e6e6e6;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px 0px lightgrey;
+      width: 500px;
+    }
+
+    .create-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 500px;
+    }
+
+    .create-form-label {
+      padding: 12px;
+      font-size: 16px;
+    }
+
+    .create-form-label-input {
+      height: 30px;
+      width: 300px;
+      font-size: 15px;
+    }
+
+    #create-form-textarea {
+      margin: 0px;
+      height: 80px;
+      width: 300px;
+    }
+
+    .create-form-label-paragraph {
+      position: relative;
+      top: 41px;
+      right: 105px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .create-fieldset-wrapper {
+      max-width: 555px;
+      margin: -60px auto;
+    }
+
+    .create-fieldset {
+      background-color: #e6e6e6;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px 0px lightgrey;
+      width: 393px;
+    }
+
+    .create-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 393px;
+    }
+
+    .create-form-label-input {
+      height: 30px;
+      width: 200px;
+      font-size: 15px;
+    }
+
+    #create-form-textarea {
+      margin: 0px;
+      height: 80px;
+      width: 200px;
+    }
+
+    .submit-btn {
+      align-self: center;
+      margin: 20px;
+      border-radius: 17px;
+      border: 2px solid black;
+      padding: 6px 14px;
+      font-size: 16px;
+      background: greenyellow;
+    }
+  }
+
+  @media (max-width:440px) {
+    .create-fieldset {
+      background-color: #e6e6e6;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px 0px lightgrey;
+      width: 300px;
+    }
+
+    .create-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 300px;
+    }
+
+    .create-form-label {
+      padding: 12px;
+      font-size: 12px;
+    }
+
+    .create-form-label-input {
+      height: 20px;
+      width: 150px;
+      font-size: 12px;
+    }
+
+    .create-form-label-paragraph {
+      position: relative;
+      top: 41px;
+      right: 90px;
+    }
+
+    #create-form-textarea {
+      margin: 0px;
+      height: 80px;
+      width: 150px;
+    }
+  }

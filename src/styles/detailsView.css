@@ -152,3 +152,107 @@
     cursor: pointer;
     background: green;
   }
+
+  @media (max-width: 550px) {
+    .crypto-currency-details-card {
+      border-radius: 6px;
+      margin: 50px auto;
+      min-width: 350px;
+      max-width: 300px;
+      box-shadow: 1px 1px 15px 2px lightgrey;
+      background: lightskyblue;
+    }
+
+    .crypto-currency-name {
+      text-align: center;
+      font-size: 34px;
+      margin: 15px auto;
+    }
+
+    .crypto-currency-description-article-paragraph {
+      line-height: 22px;
+      font-size: 15px;
+      padding: 0px 20px;
+      text-align: justify;
+    }
+
+    .card-author-edit-link {
+      border: 2px solid black;
+      border-radius: 23px;
+      border-color: yellow;
+      padding: 9px 0px;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      background-color: yellow;
+      width: 58px;
+      margin: 0px 0px 20px 0px;
+      text-align: center;
+    }
+
+    .card-author-delete-btn {
+      border: 2px solid black;
+      border-radius: 23px;
+      border-color: red;
+      padding: 8px 6px;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      background-color: red;
+      margin: 0px 0px 20px 0px;
+    }
+
+    .add-comment-section {
+      background-color: tomato;
+      border: 1px solid black;
+      border-radius: 8px;
+      width: 330px;
+    }
+
+    .comments-heading {
+      background-color: lightcoral;
+      border: 2px solid black;
+      border-radius: 8px;
+      padding: 10px 70px;
+      box-shadow: 1px 1px 5px 0px white;
+    }
+
+    .comments-list-item {
+      list-style: none;
+      background-color: lightcoral;
+      border: 2px solid black;
+      border-radius: 8px;
+      box-shadow: 1px 1px 5px 0px white;
+      margin-bottom: 15px;
+      padding-left: 10px;
+      width: 300px;
+      position: relative;
+      right: 17px;
+    }
+
+    .comment-list-item-paragraph-date {
+      margin: 0px;
+      border-bottom: 1px solid black;
+      padding: 4px 12px;
+      text-align: end;
+      font-size: 14px;
+    }
+
+    .comments-list-item-paragraph {
+      font-size: 14px;
+    }
+
+    .add-comment-section-textarea {
+      width: 295px;
+    }
+    
+    .submit-btn {
+      align-self: center;
+      margin: 20px;
+      border-radius: 17px;
+      border: 2px solid black;
+      padding: 6px 13px;
+      font-size: 15px;
+      background: greenyellow;
+  }
+  }

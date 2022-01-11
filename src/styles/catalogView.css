@@ -12,6 +12,12 @@
     text-align: center;
     margin-bottom: 30px;
   }
+
+  .searchbar-form label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
   
   .searchbar-label-paragraph {
     font-size: 27px;
@@ -23,15 +29,14 @@
   .searchbar-form-search-input {
     height: 20px;
     width: 300px;
-    position: relative;
-    left: 30px;
     border: 2px solid black;
     border-radius: 6px;
+    margin-bottom: 15px;
   }
   
   .searchbar-form-submit-btn {
-    position: relative;
-    left: 30px;
+    /* position: relative;
+    left: 30px; */
     height: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -113,4 +118,94 @@
     color: black;
     font-size: 35px;
     margin: 0px;
+  }
+
+  @media (max-width: 800px) {
+    .currency-cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+    }
+  }
+
+
+  @media (max-width: 550px) {
+    .searchbar-label-paragraph {
+      font-size: 27px;
+      margin: 0px auto;
+      padding-bottom: 15px;
+      color: white;
+    }
+
+    .searchbar-form-submit-btn {
+      height: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin-top: 13px;
+    }
+
+    .page-btn {
+      border: 2px solid black;
+      border-radius: 4px;
+      margin-right: 5px;
+    }
+  }
+
+
+  @media (max-width: 440px) {
+    .searchbar-and-pagination {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .currency-card-wrapper {
+      border: 2px solid black;
+      border-radius: 12px;
+      box-shadow: 2px 1px 7px 0px lightgrey;
+      width: 185px;
+      height: 196px;
+      background-color: #26b8b4;
+      margin-bottom: 25px;
+    }
+
+    .catalog-currency-card-img {
+      width: 100%;
+      height: 144px;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+
+    .searchbar-form {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    
+    .searchbar-label-paragraph {
+      font-size: 27px;
+      margin: 0px auto;
+      padding-bottom: 15px;
+      color: white;
+    }
+
+    .searchbar-form label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchbar-form-search-input {
+      height: 20px;
+      width: 300px;
+      border: 2px solid black;
+      border-radius: 6px;
+    }
+
+    .searchbar-form-submit-btn {
+      height: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin-top: 13px;
+    }
   }

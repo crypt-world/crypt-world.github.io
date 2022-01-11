@@ -8,7 +8,7 @@ const loginPageTemplate = (onLogin, errMsg, missingFields) => html` <div
 >
   <fieldset class="login-fieldset">
     <legend>Sign in</legend>
-    <form @submit=${onLogin} class="register-form">
+    <form @submit=${onLogin} class="login-form">
     ${errMsg.length > 0 ? html`<span class="create-form-error-message-span">${errMsg}</span>`
                           : null}
       <label class="username-label login-form-label">

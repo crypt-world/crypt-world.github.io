@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
   
   }
   
@@ -36,4 +36,95 @@
   .do-not-have-account {
     margin: 20px 200px 20px 0px;
     font-size: 18px;
+  }
+
+
+  @media (max-width: 700px) {
+    .login-fieldset {
+      background-color: #e6e6e6;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px 0px lightgrey;
+      width: 500px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 500px;
+    }
+
+    .login-form-label {
+      padding: 12px;
+      font-size: 16px;
+    }
+
+    .login-form-input {
+      height: 30px;
+      width: 279px;
+      font-size: 15px;
+    }
+
+    .do-not-have-account {
+      margin: 20px;
+      font-size: 18px;
+      align-self: center;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .login-fieldset {
+      background-color: #e6e6e6;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px 0px lightgrey;
+      width: 393px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 393px;
+    }
+
+    .login-form-input {
+      height: 30px;
+      width: 200px;
+      font-size: 15px;
+    }
+
+    
+  }
+
+  @media (max-width:440px) {
+    .login-fieldset {
+      background-color: #e6e6e6;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px 0px lightgrey;
+      width: 314px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 314px;
+    }
+
+    .login-form-label {
+      padding: 12px;
+      font-size: 12px;
+    }
+
+    .login-form-input {
+      height: 20px;
+      width: 150px;
+      font-size: 12px;
+    }
+
+    .do-not-have-account {
+      margin: 20px;
+      font-size: 13px;
+      align-self: center;
+    }
   }
