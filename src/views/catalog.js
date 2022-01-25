@@ -1,4 +1,4 @@
-import { createCurrency, getAllCryptoCurrencies } from "../api/data.js";
+import { getAllCryptoCurrencies } from "../api/data.js";
 import { parseQuery } from "../api/util.js";
 import { html, until } from "../lib.js";
 
@@ -87,18 +87,4 @@ function onSearch(event) {
   } else {
     return currencies.map(currencyCardTemplate);
   }
-}
-
-
-function pagerSetup(page, data, search) {
-  return async () => {
-      const { pages } = await data;
-
-      return html`
-          Page ${page} of ${pages}
-          ${page > 1 ? html`<a class="pager" href=${'/catalog/' + createQuery(page - 1, search)}>&lt;
-              Prev</a>` : ''}
-          ${page < pages ? html`<a class="pager" href=${'/catalog/' + createQuery(page + 1, search)}>Next
-              &gt;</a>` : ''}`;
-  };
 }
