@@ -37,23 +37,27 @@ export function createPointer(className, objectId){
 
 
 export async function getAllCryptoCurrencies(page=1, query={}) {
-  if(query){
-    query ={
-      name: {
-        $text: {
-          $search: {
-            $term: query
-          }
-        }
-      }
+  const data = await (() => {
+    if (query) {
+        query = {
+            name: {
+                $text: {
+                    $search: {
+                        $term: query,
+                        $caseSensitive: false
+                    }
+                }
+            }
+        };
+        return api.get(endpoints.searchCryptoCurrencies(query));
+    } else {
+        return api.get(endpoints.paginationEndPoint(page, pageSize));
     }
-    return api.get(endpoints.searchCryptoCurrencies(query));
-  }else if(page){
-    return api.get(endpoints.paginationEndPoint(page));
-  }else  {
-    return api.get(endpoints.allCryptoCurrencies);
-  }
+})();
+const allData = await api.get(endpoints.allCryptoCurrencies);
+data.pages = Math.ceil(allData.results.length / pageSize);
 
+return data;
 }
 
 export async function getCurrencyById(id) {
